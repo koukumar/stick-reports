@@ -1,3 +1,7 @@
+/*
+ * curl "https://logbasedev.firebaseio.com/accounts/account2e69da1b-7ff2-4e74-9a14-24d3b4245a12/.json?print=pretty&auth=yQrl2aU8jo1h4yB7HtsxdsoEAmxRvSmzMe5nFcTR" > new_orders
+ */
+
 var fs = require('fs');
 var json2csv = require('json2csv');
 var zip = new require('node-zip')();
